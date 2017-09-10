@@ -1,158 +1,146 @@
 <!DOCTYPE html>
 <html lang=en>
+	<head>
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Welcome to shopify</title>
+		<meta charset=utf-8 >
+		<meta name=description content="column">
+		<meta name=keyword content=shopping>
+		<!-- Mobile viewport optimized -->
+		<meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<!-- Bootstrap CSS -->
+		<link href=https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css rel=stylesheet>
+		<link href=includes/css/bootstrap-glyphicons.css rel=stylesheet>
+		<!-- importing icons from font-awesome -->
+		<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
+		<!-- Custom CSS -->
+		<link href=includes/css/styles.css rel=stylesheet>
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src=includes/js/modernizr-2.6.2.min.js></script>
+	</head>
 
-<head>
-	<!-- Website Title & Description for Search Engine purposes -->
-	<title>Welcome to shopify</title>
-	<meta charset=utf-8 >
-	<meta name=description content="column">
-	<meta name=keyword content=shopping>
-	<!-- Mobile viewport optimized -->
-	<meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-	<!-- Bootstrap CSS -->
-	<link href=https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css rel=stylesheet>
-	<link href=includes/css/bootstrap-glyphicons.css rel=stylesheet>
-
-	<!-- importing icons from font-awesome -->
-	<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
-
-	<!-- Custom CSS -->
-	<link href=includes/css/styles.css rel=stylesheet>
-
-	<!-- Include Modernizr in the head, before any other Javascript -->
-	<script src=includes/js/modernizr-2.6.2.min.js></script>
-</head>
-
-<body>
-	<div class=container-fluid style="padding: 0px" id=main>
-		<!-- Header -->
-		<header>
-			<nav class="navbar navbar-default ">
-				<div>
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	<body>
+		<div class=container-fluid style="padding: 0px" id=main>
+			<!-- Header -->
+			<header>
+				<nav class="navbar navbar-default ">
+					<div>
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand pull-left" href="#">Shopify <img src=images/shopify.png alt="Shopify Logo"></a>
-					</div>
-
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-							<li><a href="#">Way to Sell</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pricing <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Action</a></li>
-									<li><a href="#">Another action</a></li>
-									<li><a href="#">Something else here</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">Separated link</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">One more separated link</a></li>
-								</ul>
-							</li>
-						</ul>
-						<form class="navbar-form navbar-left">
-				            <div class="input-group">
-				                <input type="text" class="form-control" placeholder="Search" id=navBarSearchForm>
-				                <span class="input-group-btn">
-				                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-				                </span>
-				            </div>
-				        </form>
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Blogs</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>My Account <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">A<span class="glyphicon glyphicon-refresh"></span> Update Profile</a></li>
-									<li><a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-			</nav>
-
-		</header>
-
-		<!-- end of header -->
-
-		<!-- making the image sliding usin carousel-->    
-		<div class="container">    
-			<div id=myCarousel class="carousel slide" data-ride=carousel>
-				<ol class=carousel-indicators>
-					<li data-target=#myCarousel data-slide-to=0 class=active></li>
-					<li data-target=#myCarousel data-slide-to=1></li>
-					<li data-target=#myCarousel data-slide-to=2></li>
-				</ol>
-				<div class=carousel-inner role=listbox>
-					<div class="item active" id=slide1>
-						<div class=container>
-							<div class=carousel-caption>
-								<h4>Shopify</h4>
-								<p>Welcome to Shopify</p>                            
-								<!-- end of modal window -->
-							</div>
+							</button>
+							<a class="navbar-brand pull-left" href="#">Shopify <img src=images/shopify.png alt="Shopify Logo"></a>
 						</div>
-					</div><!-- end of slide1 -->
-					<!-- for slide 2-->
-					<div class=item id=slide2>
-						<div class=container>
-							<div class=carousel-caption>
-								<h4>Mission</h4>
-								<p>It’s been our mission to make commerce better for everyone ever since.Just over a decade ago we started an online store to sell snowboard equipment directly to those who loved the sport as much as us.</p>
-								<p><a class="btn btn-lg btn-primary" href=# role=button>Learn more</a></p>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+								<li><a href="#">Way to Sell</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pricing <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Action</a></li>
+										<li><a href="#">Another action</a></li>
+										<li><a href="#">Something else here</a></li>
+										<li role="separator" class="divider"></li>
+										<li><a href="#">Separated link</a></li>
+										<li role="separator" class="divider"></li>
+										<li><a href="#">One more separated link</a></li>
+									</ul>
+								</li>
+							</ul>
+							<form class="navbar-form navbar-left">
+								<div class="input-group">
+									<input type="text" class="form-control" placeholder="Search" id=navBarSearchForm>
+									<span class="input-group-btn">
+									<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+									</span>
+								</div>
+							</form>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#">Blogs</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>My Account <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">A<span class="glyphicon glyphicon-refresh"></span> Update Profile</a></li>
+										<li><a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a></li>
+										<li role="separator" class="divider"></li>
+										<li><a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div> <!-- /.navbar-collapse -->
+					</div> <!-- /end of div below nav -->
+				</nav>
+			</header> <!-- end of header -->
+
+			<!-- making the image sliding usin carousel-->    
+			<div class="container">
+				<div id=myCarousel class="carousel slide" data-ride=carousel>
+					<ol class=carousel-indicators>
+						<li data-target=#myCarousel data-slide-to=0 class=active></li>
+						<li data-target=#myCarousel data-slide-to=1></li>
+						<li data-target=#myCarousel data-slide-to=2></li>
+					</ol>
+					<div class=carousel-inner role=listbox>
+						<div class="item active" id=slide1>
+							<div class=container>
+								<div class=carousel-caption>
+									<h4>Shopify</h4>
+									<p>Welcome to Shopify</p>
+									<!-- end of modal window -->
+								</div>
 							</div>
-						</div>
-					</div>
-					<!-- end of slide2 -->
-					<!-- slide3 -->
-					<div class=item id=slide3>
-						<div class=container>
-							<div class=carousel-caption>
-								<h2>SALE</h2>
+						</div><!-- end of slide1 -->
+
+						<!-- for slide 2-->
+						<div class=item id=slide2>
+							<div class=container>
+								<div class=carousel-caption>
+									<h4>Mission</h4>
+									<p>It’s been our mission to make commerce better for everyone ever since.Just over a decade ago we started an online store to sell snowboard equipment directly to those who loved the sport as much as us.</p>
+									<p><a class="btn btn-lg btn-primary" href=# role=button>Learn more</a></p>
+								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-				<!-- end of slide3 -->
-				<!-- buttons for prev and next -->
-				<a class="left carousel-control" href=#myCarousel role=button data-slide=prev>
+						</div><!-- end of slide2 -->
+
+						<!-- slide3 -->
+						<div class=item id=slide3>
+							<div class=container>
+								<div class=carousel-caption>
+								</div>
+							</div>
+						</div> <!-- end of slide3 -->
+					</div> <!-- end of carousel-inner -->
+					
+
+					<!-- buttons for prev and next -->
+					<a class="left carousel-control" href=#myCarousel role=button data-slide=prev>
 					<span class="glyphicon glyphicon-chevron-left" aria-hidden=true></span>
 					<span class=sr-only>Previous</span>
-				</a>
-				<a class="right carousel-control" href=#myCarousel role=button data-slide=next>
+					</a>
+					<a class="right carousel-control" href=#myCarousel role=button data-slide=next>
 					<span class="glyphicon glyphicon-chevron-right" aria-hidden=true></span>
 					<span class=sr-only>Next</span>
-				</a>
-			</div>
-			<!-- end of my carousel -->      
+					</a>
+				</div><!-- end of my carousel -->
 
-			<!-- Giving a featureheading -->
-			<div class=row id=featuresHeading>
-				<div>
-					<h2>E-commerce Platform for you</h2>
-					<p class=lead>Whether you sell online, on social media, in store, or out of the trunk of your car, Shopify has you covered.</p>
-				</div>
-			</div>
-		
-			<!-- end of featureheading -->
-			<!-- section for your brand-your way -->        
-			
-			
+				<!-- Giving a featureheading -->
+				<div class=row id=featuresHeading>
+					<div>
+						<h2>E-commerce Platform for you</h2>
+						<p class=lead>Whether you sell online, on social media, in store, or out of the trunk of your car, Shopify has you covered.</p>
+					</div>
+				</div><!-- end of featureheading -->
+
+				<!-- section for your brand-your way -->        
 				<div class=row id=features>
-			        <h2 class=yourBrand>Your brand-Your way</h2>	    
-					<div class="col-sm-6 feature">						
+					<h2 class=yourBrand>Your brand-Your way</h2>
+					<div class="col-sm-6 feature">
 						<ul>
 							<li>No design skills needed</li>
 							<li>Establish your brand online with a custom domain name and online store.</li>
@@ -166,105 +154,98 @@
 						<img src=images/yourBrand_480.png alt=YourBrand class="img-circle img-responsive" >
 					</div>
 				</div>
-			
-			<!-- end of section for your brand-your way -->
-			<!-- section for our mission -->
-			
-			    
+				<!-- end of section for your brand-your way -->
+
+				<!-- section for our mission -->
 				<div class=row id=features>
-				    <h2 class=mission>&nbsp;Our Mission</h2>    
+					<h2 class=mission>&nbsp;Our Mission</h2>
 					<div class="col-sm-6 feature">
 						<img src=images/missionControl_480.png alt=YourBrand class="img-circle img-responsive" id=missionControl>
 					</div>
-					<div class="col-sm-6 feature">						
+					<div class="col-sm-6 feature">
 						<p class=Mission>Everything in one place.Selling your products in many places should be every bit as simple as selling in one. With Shopify’s ecommerce software, you get one unified platform to run your business with ease.
-							<ul>
-								<li>fully customize your online store</li>
-								<li>Add new sales channels in seconds</li>
-								<li>Manage unlimited products and inventory</li>
-								<li>Fulfill orders in a single step</li>
-								<li>Track sales and growth trends</li>
-							</ul>
-							<a href=https://www.shopify.in/online target=_blank class="btn btn-success btn-block sell">Start Selling Online</a>
+						<ul>
+							<li>fully customize your online store</li>
+							<li>Add new sales channels in seconds</li>
+							<li>Manage unlimited products and inventory</li>
+							<li>Fulfill orders in a single step</li>
+							<li>Track sales and growth trends</li>
+						</ul>
+						<a href=https://www.shopify.in/online target=_blank class="btn btn-success btn-block sell">Start Selling Online</a>
 					</div>
 				</div>
-			
 				<!-- end of section for our mission -->
+
 				<!-- for section all the new features for you -->        
-				<div class=row id=featuresHeading>
+				<div class=row id=featuresHeading> 
 					<div>
 						<h2 class=lead>All the new features for you</h2>
 					</div>
 				</div>
 				<!-- end of section all the new features for you --> 
 				<!-- for new features - two rows are there -each row containing three columns -->       
-				<div class=row id=newfeatures>
-					<div class="col-sm-4 feature"> <!--  first column -->
+				<div class=row id=newfeatures><!-- firsy row -->
+					<div class="col-sm-4 feature"><!--  first column -->
 						<div class="panel panel-default">
-							<div class="panel-body">                            
+							<div class="panel-body">
 								<img src=images/websiteFeatures.svg alt=websiteFeature class="img-circle 1 img-responsive">			
 								<h5 class="websiteFeature">Fully customizable website with online shopping store</h5>
 								<a href=https://www.shopify.in/online/ecommerce-solutions#storefronte target=_blank class="btn btn-info btn-block">Website Features</a>							
-							</div> <!-- end of first column -->
-						</div>
+							</div>							
+						</div><!-- end of first column -->
 					</div>
-
-					<div class="col-sm-4 feature"> <!--  first column -->
+					<div class="col-sm-4 feature"><!--  second column -->
 						<div class="panel panel-default">
-							<div class="panel-body">                            
+							<div class="panel-body">
 								<img src=images/inventoryFeatures.svg alt="Inventory Feature" class="img-circle 1 img-responsive">
 								<h5>Unlimited bandwidth, product inventory, and customer data</h5>
 								<a href=https://www.shopify.in/online/ecommerce-solutions#products target=_blank class="btn btn-info btn-block">Inventory Features</a>						
-							</div> <!-- end of first column -->
+							</div>							
 						</div>
-					</div>
-
-					<div class="col-sm-4 feature"> <!--  first column -->
+					</div><!-- end of second column -->
+					<div class="col-sm-4 feature"><!--  third column -->
 						<div class="panel panel-default">
-							<div class="panel-body">                            
+							<div class="panel-body">
 								<img src=images/salesChannels.svg alt="Sales Channels" class="img-circle 1 img-responsive">					
 								<h5>Sell on new sales channels like Pinterest and Amazon</h5>
 								<a href=https://www.shopify.in/channels target=_blank class="btn btn-info btn-block">Sales Channels</a>	
-							</div> <!-- end of first column -->
+							</div>							
 						</div>
-					</div>				
-				</div><!-- end of div for id=newfeatures --> 
-
-				<div class=row id=newfeatures>
-					<div class="col-sm-4 feature"> <!--  first column -->
+					</div><!-- end of first column -->
+				</div><!-- end of first row -->
+				
+				<div class=row id=newfeatures><!-- second row -->
+					<div class="col-sm-4 feature"><!--  first column -->
 						<div class="panel panel-default">
-							<div class="panel-body">                            
+							<div class="panel-body">
 								<img src=images/paymentGateway.svg alt="Payment Gateway" class="img-circle 1 img-responsive">
 								<h5>Over 70 international payment gateways supported</h5>
 								<a href=https://www.shopify.in/payment-gateways target=_blank class="btn btn-info btn-block">70+ payment Gateways</a>						
-							</div> <!-- end of first column -->
+							</div>							
 						</div>
-					</div>
+					</div><!-- end of first column -->
 
-					<div class="col-sm-4 feature"> <!--  first column -->
+					<div class="col-sm-4 feature">	<!--  second column -->
 						<div class="panel panel-default">
-							<div class="panel-body">                            
+							<div class="panel-body">
 								<img src=images/shippingapps.svg alt="shipping apps" class="img-circle 1 img-responsive">
 								<h5 class="shippingapps">Automate your fulfillment process with shipping apps</h5>
 								<a href="https://apps.shopify.com/categories/shipping?__hstc=210140490.da95c987d2036a3913df13c08c795fa0.1504602209575.1504628107422.1504674768544.4&__hssc=210140490.3.1504674768544&__hsfp=4043814260" target=_blank class="btn btn-info btn-block">Shipping apps & integration</a>						
-							</div> <!-- end of first column -->
+							</div>							
 						</div>
-					</div>
-
-					<div class="col-sm-4 feature"> <!--  first column -->
+					</div><!-- end of second column -->
+					<div class="col-sm-4 feature"> <!--  third column -->
 						<div class="panel panel-default">
-							<div class="panel-body">                            
+							<div class="panel-body">
 								<img src=images/helpCenter.svg alt="Help Center" class="img-circle 1 img-responsive">
 								<h5>We’re here to help with 24/7 customer support</h5>
 								<a href="https://help.shopify.com/?__hstc=210140490.da95c987d2036a3913df13c08c795fa0.1504602209575.1504628107422.1504674768544.4&__hssc=210140490.3.1504674768544&__hsfp=4043814260" target=_blank class="btn btn-info btn-block">Help Center</a>
-							</div> <!-- end of first column -->
+							</div>							
 						</div>
-					</div>				
-				</div><!-- end of div for id=newfeatures --> 
-
-		</div> <!-- end of container -->
-	</div>
-
+					</div><!-- end of third column -->
+				</div><!-- end of div second row--> 
+			</div><!-- end of container -->
+		</div> <!-- end of container-fluid -->
 		<!-- footer --> 
 		<footer>
 			<div class=container>
@@ -302,32 +283,28 @@
 					</div>
 					<div class=col-sm-2>
 						<div class="socialnetwork">
-							<h4>Follow us on:</h4> 
-
+							<h4>Follow us on:</h4>
 							<li>
 								<a href=https://www.facebook.com/ target=_blank> <i class="fa fa-facebook-official" aria-hidden=true></i></a>
 								<a href=https://twitter.com/ target=_blank> <i class="fa fa-twitter" aria-hidden=true></i></a>
 								<a href=https://www.instagram.com/ target=_blank> <i class="fa fa-instagram" aria-hidden=true></i></a>
 								<a href=https://www.youtube.com/ target=_blank> <i class="fa fa-youtube-play" aria-hidden=true></i></a>
 							</li>
-						</div>  
-
-                        <div class="messageUs">
+						</div>
+						<div class="messageUs">
 							<li><a href="#myModal" role="button" class="btn btn-link" data-toggle="modal"><span class="glyphicon glyphicon-envelope">Message Us</span></a></li>
-
 							<div class="modal fade" id="myModal">
 								<div class="modal-dialog">
 									<div class="modal-content">
 										<div class="modal-header">
 											<button class="close" data-dismiss="modal">&times;</button>
 											<h4 class="modal-title">Contact Us Form</h4>
-										</div> <!--end modal-header -->
-
+										</div>
+										<!--end modal-header -->
 										<div class="modal-body">
 											<form class="form-horizontal" name="ContactForm" onsubmit="return ValidateContactForm();">
 												<div class="form-group">
 													<label class="col-lg-2 control-label" for="inputName">Name</label>
-
 													<div class="col-lg-5">
 														<input type="text" name="FName" class="form-control" id="inputNameF" placeholder="First Name">
 													</div>
@@ -335,57 +312,54 @@
 														<input type="text" name="LName" class="form-control" id="inputNameL" placeholder="Last Name">
 													</div>
 												</div>
-
 												<div class="form-group">
 													<label class="col-lg-2 control-label" for="inputEmail">Email ID</label>
-
 													<div class="col-lg-10">
 														<input type="email" name="Email" class="form-control" id="inputEmail" placeholder="Email">
 													</div>
 												</div>
-
 												<div class="form-group">
 													<label class="col-lg-2 control-label" for="inputMessage">Message</label>
-
 													<div class="col-lg-10">
 														<textarea class="form-control" name="Message" id="inputMessage" placeholder="Message or Review" rows="3"></textarea>
-
 														<button class="btn btn-info pull-right" name="submit" type="submit" id="submit">submit</button>
 													</div>
 												</div>
 											</form>
-
-										</div> <!-- end modal-body -->
-
+										</div>
+										<!-- end modal-body -->
 										<div class="modal-footer">
 											<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
 											<button class="btn btn-primary" type="button">Save Changes</button>
-										</div> <!-- end modal-footer -->
-									</div> <!-- end modal-content -->
-								</div> <!--end modal-dialog-->
-							</div> <!-- end myModal --> 
-						</div>	              
+										</div>
+										<!-- end modal-footer -->
+									</div>
+									<!-- end modal-content -->
+								</div>
+								<!--end modal-dialog-->
+							</div>
+							<!-- end myModal --> 
+						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
 		<!-- end of footer -->
 		<script src=http://code.jquery.com/jquery.js></script>
-
 		<script>
 			function ValidateContactForm()
 			{
 				var name = document.ContactForm.FName;
 				var email = document.ContactForm.Email;
-
-
+			
+			
 				if (name.value =="")
 				{
 					window.alert("Please enter your name.");
 					name.focus();
 					return false;
 				}
-
+			
 				if (email.value == "")
 				{
 					window.alert("Please enter a valid e-mail address.");
@@ -404,21 +378,21 @@
 					email.focus();
 					return false;
 				}
-
+			
 				if ((nocall.checked == false) && (phone.value == ""))
 				{
 					window.alert("Please enter your telephone number.");
 					phone.focus();
 					return false;
 				}
-
+			
 				if (what.selectedIndex < 1)
 				{
 					alert("Please tell us how we can help you.");
 					what.focus();
 					return false;
 				}
-
+			
 				if (comment.value == "")
 				{
 					window.alert("Please provide a detailed description or comment.");
@@ -427,8 +401,8 @@
 				}
 				return true;
 			}
-
-
+			
+			
 		</script>
 		<script>
 			window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>');
@@ -436,9 +410,4 @@
 		<script src=https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js></script>
 		<script src=includes/js/script.js></script>
 	</body>
-
-	</html>
-
-
-
-
+</html>
