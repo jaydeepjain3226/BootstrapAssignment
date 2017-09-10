@@ -19,7 +19,8 @@ Notes:    Hand coded for Udemy.com
 /* --------------------------------------
    Typography
    -------------------------------------- */
-a:link {
+
+   a:link {
     color: white;
 }
 /* visited link */
@@ -57,6 +58,7 @@ ul.unstyled {
 /* --------------------------------------
    Header & Navbar
    -------------------------------------- */
+ 
 
  header a.navbar-brand{
    font-family: 'Tangerine', serif;
@@ -102,12 +104,6 @@ header a.navbar-brand.pull-left {
 .carousel-caption h4 {
    color:white;
    font-size: 32px;
-}
-
-.carousel-caption h2 {
-   color:black;
-   font-size: 50px;
-   padding-bottom: 250px;
 }
 
 .carousel-caption p{
@@ -165,6 +161,8 @@ h2.yourBrand, h2.mission{
 }
 
 /*end of styling for more features*/
+
+ 
 #featuresHeading h2.new{
    text-align: center;
    background-color: #c5d5cb;
@@ -236,6 +234,8 @@ footer .modal-dialog .modal-content{
 /* Portrait & landscape phone */
 
 @media (max-width: 480px) {
+
+   
 .carousel-caption h2 {
    color:black;
    font-size: 50px;
@@ -312,7 +312,7 @@ footer .modal-dialog .modal-content{
 }
 
 /* Large desktop */
-@media (min-width: 1200px) {
+@media (min-width: 770px) {
 
    #myCarousel .item { height: 500px; }
    
