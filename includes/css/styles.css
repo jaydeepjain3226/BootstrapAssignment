@@ -19,6 +19,22 @@ Notes:    Hand coded for Udemy.com
 /* --------------------------------------
    Typography
    -------------------------------------- */
+a:link {
+    color: white;
+}
+/* visited link */
+a:visited {
+    color: #e3e3e3;
+}
+/* mouse over link */
+a:hover {
+    color:green;
+}
+/* selected link */
+a:active {
+    color:red;
+}
+
 body {
    -webkit-font-smoothing: antialiased;
    text-rendering: optimizelegibility;
@@ -41,38 +57,36 @@ ul.unstyled {
 /* --------------------------------------
    Header & Navbar
    -------------------------------------- */
- header .navbar{
-   background-color: black;
-   color:white;
- }
 
  header a.navbar-brand{
    font-family: 'Tangerine', serif;
    font-size: 30px;
    text-shadow: 5px 5px 5px green;
    padding-top: 5px;
-   color:white;
-   
  }
+
 header img{
    margin-top:5px;
-   margin-left:0;
-   width:30px;
-   height: 40px;
-}
-header a img{
+
+   width:35px;
    height: 35px;
-   width: 35px;
-   padding-bottom: 5px;
-   align-content:left;
+}
+.navbar-brand>img {
+    display: -webkit-inline-box;
 }
 
-   #searchInput {
-   width: 200px;
-}
+header a.navbar-brand.pull-left {
+    font-family: 'Tangerine', serif;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px green;
+    padding-top: 5px;
+    margin-bottom: 20px;}
 
 .navbar-brand {
    padding: 13px 15px;
+}
+#navBarSearchForm{
+   width: 70px;
 }
 
 /* End of styling for header and navbar*/
@@ -80,9 +94,6 @@ header a img{
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-##myCarousel {
-   margin-top: 60px;
-}
 
 .carousel-caption {
    font-size: 24px;
@@ -96,8 +107,8 @@ header a img{
 .carousel-caption h2 {
    color:black;
    font-size: 50px;
+   padding-bottom: 250px;
 }
-
 
 .carousel-caption p{
    color:#e3e3e3;
@@ -106,22 +117,11 @@ header a img{
 
 #myCarousel .item { height: 400px; }
 
-
-#slide1 {
-   background: url('../../images/shopping.jpg') top center no-repeat;
-}
-
-#slide2 {
-   background: url('../../images/ourmission.jpg') top center no-repeat;
-}
-
 /*end of styling for carousel*/
 
 #register{
    margin-top: 15px
 }
-
-
 
 /*Styling for more features*/
 
@@ -141,26 +141,14 @@ header a img{
    margin-bottom:10px; 
 }
 
-.yourBrand{
+h2.yourBrand, h2.mission{
    margin-bottom: 20px;
+   background-color: #469a46;
+   color:#e3e3e3;
+   margin-right: 15px;
+   margin-left: 15px;   
 }
   
-.feature h2.yourBrand{
-   font-size: 35px;
-   color:#e3e3e3;
-   background-color: #004800;
-   padding-left;20px;
-   width: 100%;
-}
-
-
-.feature h2.mission{
-   font-size: 35px;
-   color:white;
-   background-color: #004800;
-   padding-left;20px;
-   width: 100%;
-}
 
 .feature ul li{
    font-size: 20px;
@@ -177,8 +165,6 @@ header a img{
 }
 
 /*end of styling for more features*/
-
- 
 #featuresHeading h2.new{
    text-align: center;
    background-color: #c5d5cb;
@@ -191,10 +177,20 @@ header a img{
 #newfeatures img{
    width:75px;
    height:75px;
-   margin-top:10px;
-   margin-bottom: 40px;
+   margin:0 auto;
 }
 
+#newfeatures .panel{
+   height: 200px;
+}
+
+#newfeatures .panel a.btn-block{
+   padding-bottom: 10px;
+}
+
+#newfeatures h5.websiteFeature, h5.shippingapps{
+   padding-bottom:2px;
+}
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
@@ -211,9 +207,7 @@ footer{
 footer p{
    text-align: justify;
 }
-footer h4{
-   margin-left: 35px;
-}
+
 footer li{
    list-style: none;
 }
@@ -221,7 +215,19 @@ footer li a{
    padding-right: 10px;
 }
 
+footer .socialnetwork{
+   margin-bottom: 10px;
+}
+footer .messageUs a{
+   padding-left: 0px;
+}
+
+footer .modal-dialog .modal-content{
+   background-color: white;
+   color:black;
+}
 /*end of styling for footer*/
+
 
 /* --------------------------------------
    Media Queries
@@ -229,9 +235,12 @@ footer li a{
 
 /* Portrait & landscape phone */
 
-
 @media (max-width: 480px) {
-
+.carousel-caption h2 {
+   color:black;
+   font-size: 50px;
+   padding-bottom: 150px;
+}
    
    .thumbnail .price {
       font-size: 14px;
@@ -264,20 +273,16 @@ footer li a{
       background: url('../../images/slide3_480.jpg') top center no-repeat;
    }
 
-   img#yourBrand{
+   img #yourBrand{
       background: url('../../images/yourBrand_480.png') top center no-repeat;
    }
    
-   img#missionControl{
+   img #missionControl{
       background: url('../../images/missionControl_480.png') top center no-repeat;
    }
 }
 
-
-
 /* Landscape phone to portrait tablet */
-
-
 
 @media (max-width: 768px) {
    
@@ -322,8 +327,6 @@ footer li a{
    #slide3 {
       background: url('../../images/slide3_1200.jpg') top center no-repeat;
    }
-  
-
 }
 
 
